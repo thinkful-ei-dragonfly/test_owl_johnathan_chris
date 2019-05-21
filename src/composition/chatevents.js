@@ -1,4 +1,4 @@
-const chatEvents = [
+const ChatEvents = [
     {
         participantId: 3,
         type: 'message',
@@ -47,3 +47,5 @@ const chatEvents = [
         timestamp: 1548852724247
     }
 ];
+
+export default ChatEvents;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component renders the UI as expected 1`] = `
+<div>
+  <img
+    alt="avatar-img"
+  />
+  <p />
+  <p>
+    1548852484247
+  </p>
+  <p>
+    Hello World
+  </p>
+</div>
+`;

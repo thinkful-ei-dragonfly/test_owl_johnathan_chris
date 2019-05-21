@@ -1,4 +1,4 @@
-const participants = [
+const Participants = [
     {
         id: 1,
         name: 'Koren Templeton',
@@ -39,3 +39,5 @@ const participants = [
         onStage: true
     }
 ];
+
+export default Participants;
