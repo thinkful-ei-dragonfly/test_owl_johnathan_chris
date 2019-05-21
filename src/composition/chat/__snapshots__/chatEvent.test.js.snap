@@ -4,8 +4,11 @@ exports[`User component renders the UI as expected 1`] = `
 <div>
   <img
     alt="avatar-img"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
   />
-  <p />
+  <p>
+    Koren Templeton
+  </p>
   <p>
     1548852484247
   </p>

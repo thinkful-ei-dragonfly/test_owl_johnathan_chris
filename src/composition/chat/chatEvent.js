@@ -4,12 +4,20 @@ import Participants from '../participants_dummy';
 function ChatEvent(props) {
   let chatEvent;
   let type = props.type;
+  
   const name = Participants.find(element => {
-    return (element.id === props.participantId).name;
-  });
+    if(element.id === props.participantId){
+    return element;
+  }}).name;
+  console.log(name);
+  
   const avatar = Participants.find(element => {
-    return (element.id === props.participantId).avatar;
-  });
+    if(element.id === props.participantId){
+      return element;
+    }
+  }).avatar;
+  console.log(avatar);
+
 
   switch (type) {
     case 'message':
