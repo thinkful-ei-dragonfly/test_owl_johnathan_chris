@@ -1,9 +1,10 @@
 import React from 'react';
+import Participants from '../Participants/participants';
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      {< />}
     </main>
   );
 }

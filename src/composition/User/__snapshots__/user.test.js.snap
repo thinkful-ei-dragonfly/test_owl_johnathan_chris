@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component renders the UI as expected 1`] = `
+<li
+  className="user-participant"
+>
+  <div
+    className="user-name"
+  >
+    Johnathan
+  </div>
+  <img
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <span
+    className="session-status"
+  >
+    in session
+  </span>
+</li>
+`;

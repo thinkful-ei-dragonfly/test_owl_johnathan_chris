@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component renders the UI as expected 1`] = `
+<div
+  className="stage-container"
+>
+  <span
+    className="user-name"
+  >
+    Johnathan
+  </span>
+  <img
+    src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+  />
+  <button
+    className="volume"
+  >
+    🔊
+  </button>
+</div>
+`;
