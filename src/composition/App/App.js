@@ -2,6 +2,7 @@ import React from 'react';
 import StageList from '../stage/stageList.js';
 import STORE from '../store.js';
 import ChatList from '../chat/chatList.js'
+import Participants from '../Participants/participants.js';
 
 
 function App(props) {
@@ -12,6 +13,7 @@ function App(props) {
     <main className='App'>
       <div className="side-bar">
       <ChatList events={chat}/>
+      <Participants participants={STORE.Participants}/>
       </div>
       <StageList stageUsers={usersOnStage} />
     </main>

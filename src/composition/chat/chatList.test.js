@@ -6,13 +6,13 @@ import ChatList from './chatList.js';
 describe('User component', () => {
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(<ChatList stageUsers={[]} />, div);
+        ReactDOM.render(<ChatList chatUsers={[]} />, div);
         ReactDOM.unmountComponentAtNode(div);
       });
 
     it('renders the UI as expected', () => {
     const tree = renderer
-      .create(<ChatList stageUsers={[]}/>)
+      .create(<ChatList chatUsers={[]}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });
