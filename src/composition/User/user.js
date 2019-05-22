@@ -12,7 +12,7 @@ function User(props) {
     return (
         <li className="user-participant">
             <div className="user-name">{props.name}</div>
-            <img src={props.avatar}/>
+            <img src={props.avatar} alt="user-avatar"/>
             <span className="session-status">{stageStatus}</span>     
         </li>
         );

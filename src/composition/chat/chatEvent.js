@@ -1,15 +1,16 @@
 import React from 'react';
-import Participants from '../participants_dummy';
+import STORE from '../store.js';
+
 
 function ChatEvent(props) {
   let chatEvent;
   let type = props.type;
-  const name = Participants.find(element => {
-    return (element.id === props.participantId).name;
-  });
-  const avatar = Participants.find(element => {
-    return (element.id === props.participantId).avatar;
-  });
+  const name = STORE.Participants.find(element => 
+    (element.id === parseInt(props.participantId, 10))
+  ).name;
+  const avatar = STORE.Participants.find(element => {
+    return (element.id === parseInt(props.participantId, 10));
+  }).avatar;
 
   switch (type) {
     case 'message':

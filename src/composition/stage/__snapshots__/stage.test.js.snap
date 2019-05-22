@@ -10,12 +10,15 @@ exports[`User component renders the UI as expected 1`] = `
     Johnathan
   </span>
   <img
+    alt="stage-avatar"
     src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
   />
-  <button
-    className="volume"
-  >
-    🔊
-  </button>
+  <span>
+    <button
+      className="volume"
+    >
+      🔊
+    </button>
+  </span>
 </div>
 `;
